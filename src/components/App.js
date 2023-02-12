@@ -10,7 +10,6 @@ function App() {
   return (
     <div id="main">
       // Do not alter the main div
-      {/* <p id="para">Para</p> */}
       <button id="click" onClick={()=>{setClicked(!clicked)}}>button</button>
       {clicked ? <p id="para">para</p> : null}
     </div>
